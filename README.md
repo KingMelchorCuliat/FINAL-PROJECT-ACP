@@ -47,6 +47,21 @@ feedback.timestamp.strftime('%Y-%m-%d')` to know when feedback is provided. Allo
 
 4.1 F Strings: F string was used in this system to provide a concise and convenient way to directly embed variables into string.  
 
+#### 5. Error Handling
+
+5.1 Input Validation: check ensure that invalid inputs are handled carefully.
+
+5.2 Feedback Access: ensuring the access of feedback details in the `view_feedbacks` function using if `'feedbacks'` in `product_data` and p`roduct_data['feedbacks']:`
+
+5.3 Exception Handling
+
+
+### ***Explanation of How Python Concepts, Libararies, etc were applied***
+
+
+  This Product Feedback System directly promotes SDG 12 Responsible Consumption and Production, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
+
+
 
 
 

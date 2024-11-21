@@ -24,7 +24,11 @@ Product Feedback system is a tool that allows users to give feedback on a produc
 
 #### 1. Object Oriented Programming (OOP)
 
-1.1
+1.1 Encapsulation and Classes: Classes like FeedbackAccount , Guest and  Feedback are applied in this system, each of the classes has their own attributes and method to define their use encapsulating data in the FeedbackAccount class using dictionary accounts encapsulates within the user interact through methods like createAccount() and login() and  in the Feedback class encapsulate feedback details like name, feedback and rating using the method userSuggestion(). While the Guest class is used for the user that don’t want to create an account and giving a welcome message.
+
+1.2 Instance attributes:  instance attribute like self.accounts in FeedbackAccount and self.name, self.feedback, self.rating and self.suggestion in Feedback are used to store obects specific data’s. 
+
+
 
   
  

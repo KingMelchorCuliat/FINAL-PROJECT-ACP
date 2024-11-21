@@ -70,7 +70,7 @@ feedback.timestamp.strftime('%Y-%m-%d' %H:%M:%S')` to know when and what time th
 
 ![Step 1](https://github.com/user-attachments/assets/e575d746-aa31-4ea8-ac62-8fc9ab04696c)
 
-**Create account for new user**
+**Creating account for new user**
 
 
 

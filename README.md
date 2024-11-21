@@ -1,11 +1,11 @@
-> # *Product Feedback System*
+why> # *Product Feedback System*
 
 Product Feedback system is a Python based tool that allows users to give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses. 
 
 > # *Topics Covered*
   ***I.*** ***Project Overview*** 
   
-  ***II.*** ***Explanation of How Python Concepts, Libararies, etc were applied***
+  ***II.*** ***Explanation of How Python Concepts, Libraries, etc were applied***
  
 * Object Oriented Programming (OOP)
 * Libraries
@@ -34,7 +34,23 @@ Product Feedback system is a Python based tool that allows users to give feedbac
 2.1 Import datetime: library is used to capture the current date using self.timestamp = datetime.datetime.now() and to get the format yy-dd-mm using timestamp =
 feedback.timestamp.strftime('%Y-%m-%d') to know when feedback is provided. Allowing to track when the user gives feedback to the product.
 
-2.2 Import json: this library was used to store the user accounts inclucing username and password and Customer feedback including rating and suggestions
+2.2 Import json: this library was used to store the user accounts inclucing username and password and Customer feedback including rating and suggestions.
+
+
+#### 3. Control Flow
+
+3.1 Conditional statements: (if, elif, else) help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
+
+3.2 Loops: Loops like while loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While for loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
+
+#### 4. String Formmating
+
+4.1 F Strings: F string was used in this system to provide a concise and convenient way to directly embed variables into string.  
+
+
+
+
+
 
 
 

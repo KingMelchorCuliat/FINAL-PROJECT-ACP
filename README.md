@@ -32,7 +32,7 @@ Product Feedback system is a Python based tool that allows users to give feedbac
 #### 2. Libraries
 
 2.1 Import datetime: library is used to capture the current date using `self.timestamp = datetime.datetime.now() and to get the format yy-dd-mm using timestamp =
-feedback.timestamp.strftime('%Y-%m-%d' %H:%M:%S')` to know when feedback is provided. Allowing to track when the user gives feedback to the product.
+feedback.timestamp.strftime('%Y-%m-%d' %H:%M:%S')` to know when and what time the  feedback is provided. Allowing to track when the user gives feedback to the product.
 
 2.2 Import json: this library was used to store the user accounts inclucing username and password and Customer feedback including rating and suggestions.
 
@@ -68,6 +68,9 @@ feedback.timestamp.strftime('%Y-%m-%d' %H:%M:%S')` to know when feedback is prov
 
 **Login or Create Account**
 
+![Step 1](https://github.com/user-attachments/assets/e575d746-aa31-4ea8-ac62-8fc9ab04696c)
+
+**Create account for new user**
 
 
 

@@ -1,4 +1,4 @@
-why> # *Product Feedback System*
+> # *Product Feedback System*
 
 Product Feedback system is a Python based tool that allows users to give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses. 
 

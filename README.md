@@ -16,11 +16,11 @@ Product Feedback system is a Python based tool that allows users to give feedbac
 
 ***IV.*** ***Instruction for running the program***
 
- ### ***Project Overview***
+ ### **I. Project Overview**
 
  Product Feedback system is a tool that allows users to give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses
 
-### ***Explanation of How Python Concepts, Libararies, etc were applied***
+### **II. Explanation of How Python Concepts, Libararies, etc were applied**
 
 #### 1. Object Oriented Programming (OOP)
 
@@ -60,11 +60,15 @@ feedback.timestamp.strftime('%Y-%m-%d' %H:%M:%S')` to know when feedback is prov
 
 6.3 Exception Handling: used to manage the unexpected errors to occur and ensuring that the program is user friendy. Handling missing files and invalid inputs using clear error messages to guide the users  such as entering `productId` or feedback `ratings`.
 
-### ***Details of chosen SDG and its impelentation into the project***
+### **III. Details of chosen SDG and its impelentation into the project**
 
   This Product Feedback System directly promotes `SDG 12 Responsible Consumption and Production`, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s, companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s, access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
 
-### ***Instructions for running the program***
+### **IV. Instructions for running the program**
+
+**Login or Create Account**
+
+
 
 
 

@@ -9,9 +9,12 @@ Share your Experience: Product Feedback system is a Python based tool that allow
   
 * Programming Languange used
 * Object Oriented Programming (OOP)
-* Libraries
-* Data Structures
+* Data storage using json
+* Control Flow
+* Stribg Fromatting
 * Error Handling
+* re Library
+* Data Structures
   
  ***III.*** ***Details of the chosen SDG and its implementation into the project***
 
@@ -70,7 +73,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
 **Login or Create Account**
 
-!(images/Create or Login.PNG)
+!(images/Create-or-Login.PNG)
 
 **Creating account for new user**
 

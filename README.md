@@ -75,8 +75,45 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
 ![Create or Login](https://github.com/user-attachments/assets/624dae8b-b4ae-412b-a5f4-1bf403c0bfb4)
 
-
 **Creating account for new user**
+
+Once the user selected Create Account the user will have to input a new username and a password(must contain atleast one capital letter and one number). After creating the account the user will  see a welcome message.
+
+![Create Account](https://github.com/user-attachments/assets/77382060-c3e7-4110-8442-07ee4036eaa2)
+
+**Logging in**
+
+Log in with your excisting account.
+
+![Login](https://github.com/user-attachments/assets/490b6976-befa-4252-8461-7795e23ea04a)
+
+**Product Feedback Menu**
+
+![Menu](https://github.com/user-attachments/assets/c4e6bbe7-fc22-462c-8763-8d90af36111f)
+
+**List of Products**
+
+Once the user choose Provide a feedback the list of product names and their category will display
+
+
+![Choices](https://github.com/user-attachments/assets/4fc3e1e6-175a-4b5a-a3d9-5adff10467ef)
+
+**Providing a Feedback**
+
+After the user choose a product, the user will proceed in giving a feedback
+
+![Giving feedback](https://github.com/user-attachments/assets/505748bf-91da-458c-9887-79385a10ab18)
+
+**Viewing Feedbacks**
+
+After giving feedback the user can view the products that has a feedback
+
+
+**Adding a Product**
+
+The user who will provide a feedback might add a product with its name and category if he does not find it in the product list displayed.
+
+![Add a product](https://github.com/user-attachments/assets/7c3acbe7-a74d-461f-af40-54d4b5cf210f)
 
 
 

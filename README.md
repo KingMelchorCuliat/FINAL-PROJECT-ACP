@@ -104,16 +104,31 @@ After the user choose a product, the user will proceed in giving a feedback
 
 ![Giving feedback](https://github.com/user-attachments/assets/505748bf-91da-458c-9887-79385a10ab18)
 
+**Provide Suggestion**
+
+If the user rating is less than or equal 2 the system will ask the user if he/she wants to provide a suggestion.
+
+![Suggestion](https://github.com/user-attachments/assets/732b55e8-195d-4024-afc6-68e1e53da040)
+
 **Viewing Feedbacks**
 
 After giving feedback the user can view the products that has a feedback
 
+
+![ViewFeedback](https://github.com/user-attachments/assets/87970319-7dc7-4ee3-b02a-57a541d67f3f)
 
 **Adding a Product**
 
 The user who will provide a feedback might add a product with its name and category if he does not find it in the product list displayed.
 
 ![Add a product](https://github.com/user-attachments/assets/7c3acbe7-a74d-461f-af40-54d4b5cf210f)
+
+**Exiting the System**
+
+If the user has finish giving feedback and exit the program his/her account will automatically log out an will receive a message of appreciation.
+
+
+![Exit](https://github.com/user-attachments/assets/8dff1e8c-a4df-4723-81b8-6eb56cdbba33)
 
 
 

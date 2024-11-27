@@ -73,7 +73,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
 **Login or Create Account**
 
-!(images/Create-or-Login.PNG)
+!(images/Create-or-Login.png)
 
 **Creating account for new user**
 

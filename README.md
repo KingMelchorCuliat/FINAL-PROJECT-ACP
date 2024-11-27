@@ -1,12 +1,13 @@
-> # *Product Feedback System*
+> #  Share your Experience: Product Feedback System
 
-Product Feedback system is a Python based tool that allows users to add products, give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses. 
+Share your Experience: Product Feedback system is a Python based tool that allows users to add products and give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses. 
 
 > # *Topics Covered*
   ***I.*** ***Project Overview*** 
   
   ***II.*** ***Explanation of How Python Concepts, Libraries, etc were applied***
- 
+  
+* Programming Languange used
 * Object Oriented Programming (OOP)
 * Libraries
 * Data Structures
@@ -22,43 +23,44 @@ Product Feedback system is a Python based tool that allows users to add products
 
 ### **II. Explanation of How Python Concepts, Libararies, etc were applied**
 
-#### 1. Object Oriented Programming (OOP)
+#### 1. Programming Languange used
+1.1 This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.
 
-1.1 Encapsulation and Classes: Classes like `userAccount`  and  `Feedback` are applied in this system, each of the classes has their own attributes and method to define their use encapsulating data in the `FeedbackAccount` class using dictionary accounts encapsulates within the user interact through methods like `createAccount()` and `login()` and  in the `Feedback` class encapsulate feedback details like name, feedback and rating using the method `userSuggestion()`.
+#### 2. Object Oriented Programming (OOP)
+2.1 The system uses classes `customerAccount` and `Feedback` to encapsulate data functionality. The `customerAccount` class manages user accounts, including secure password using `argon2` library. The `Feedback` class represents an individual feedback entries, including the time and date when the customer submitted a feedback using `datetime` library.
 
-1.2 Instance attributes:  instance attribute like `self.accounts` in `UserAccount` and `self.name`, `self.feedback`, `self.rating` and `self.suggestion` in `Feedback` are used to store objects specific data’s. 
+#### 3. Data Storage using json
+3.1 The `json` library is used to store and retrieve customer accounts data in `customerAccounts.json` and product feedbacks  using `customerFeedback.json`. This allows  the system to maintain the data's between each sessions.
 
+#### 4. Control Flow
 
-#### 2. Libraries
+4.1 Conditional statements: `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
 
-2.1 Import datetime: library is used to capture the current date using `self.timestamp = datetime.datetime.now() and to get the format yy-dd-mm using timestamp =
-feedback.timestamp.strftime('%Y-%m-%d' %H:%M:%S')` to know when and what time the  feedback is provided. Allowing to track when the user gives feedback to the product.
-
-2.2 Import json: this library was used to store the user accounts inclucing username and password and Customer feedback including rating and suggestions.
-
-
-#### 3. Control Flow
-
-3.1 Conditional statements: `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
-
-3.2 Loops: Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
-
-#### 4. Data Structures
-4.1 Dictionaries: dictionaries like `accounts` are used to manage user accounts efficiently in the `FeedbackAccounts` storing `usernames` as their key and `password` for corresponding values, next is  `products` are use to store product informations like their `names`, `category` and their `feedbacks` where products has its own unique IDs and `Feedbacks` are used for each product are stored in a list within the `product` dictionary for easy iteration and `Feedback` storage in json are used to save data for each product in `userFeedback.json`.
-
-4.2 List: Each of its `product` in a product dictionary has a key called `feedbacks` which hold the list of `Feedback` objects allowing an easy storing of feedback data and `Feedback` data on a json is used to store a list format within the `products` dictionary such as `names`, `rating`, `suggestions` and `timestamp`.
+4.2 Loops: Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
 
 #### 5. String Formatting
 
 5.1 F Strings: F string was used in this system to provide a concise and convenient way to directly embed variables into string.  
 
 #### 6. Error Handling
+6.1 `try` and `except` blocks are used to handle potential errors in the system, prevent the system for crashing  and guide the users using informative messages making the program more robust and user friendly.
 
-6.1 Input Validation: check ensure that invalid inputs are handled carefully.
+6.2 Input validation is used to ensure that user inputs are within the expected ranges.
 
-6.2 Feedback Access: ensuring the access of feedback details in the `view_feedbacks` function using if `'feedbacks'` in `productData` and `productData['feedbacks']:`
+#### 7. re library
 
-6.3 Exception Handling: used to manage the unexpected errors to occur and ensuring that the program is user friendy. Handling missing files and invalid inputs using clear error messages to guide the users  such as entering `productId` or feedback `ratings`.
+7.1 The re library is used in this system to make a complexity  password requirements to ensure that passwords is valid.
+
+#### 8. Data Structures
+
+8.1 Dictioanires like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
+
+8.2 Lists ech products has a dictionary containing a list of feedbacks that stores Feedback objects.
+
+
+
+
+
 
 ### **III. Details of chosen SDG and its impelentation into the project**
 

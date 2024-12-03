@@ -1,0 +1,50 @@
+{
+    "King": {
+        "user_id": 1,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$GXEPBSKRSiD0uym5Tgqb1g$3kG2QXLm9RAUjS5wWdrHmbPlYsQQcWO8LsZt/ODmyRU"
+    },
+    "Mark": {
+        "user_id": 2,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$JFv7vocnDtRM6VExJdrezg$OaGlT/j7trcfJL6EgipDPa9a+wi0kVxQsKZJDL3BU0I"
+    },
+    "Sandre": {
+        "user_id": 3,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$y98mvWUPmSYyO7Nk8UZiqQ$f0MKcqDCx4NNCll2rtHdM8O9u7ZEaMqOoeYO6uEFjhQ"
+    },
+    "Andre": {
+        "user_id": 4,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$ovSAD71e+8eEve8Fh/+/9g$QYDJnBd/W04EGJttAcv+oK5r5cld1id9AmOTp4NsQQY"
+    },
+    "Larry": {
+        "user_id": 5,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$QfQQKzQqbainPR3/OJwOiQ$CV+yjC3d62wujo+6eBFmizIZd9OXdj+dC22rDhJdrR4"
+    },
+    "Agnes": {
+        "user_id": 6,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$nOcw/NYayPvyjmS+iwdq3w$caFivUf/sOTHer0Qnpdp88iZ0IBkk1bkioERPe6y6ao"
+    },
+    "Brylle": {
+        "user_id": 7,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$rKJkRGIvYh+k6GJCblpR3w$rryaBpLjmti+h7crpIY9Qwi6tr/A81M8X/czjQdb4To"
+    },
+    "Matthew": {
+        "user_id": 8,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$yk7XF83UPl0MhDgLAJPhKw$Av/rhl/CirhMTra0wjCQW9PD3RXLuLP2kLXiTlZa8WQ"
+    },
+    "Janjan": {
+        "user_id": 9,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$Lt1Q5OFbpcVe1pCvcPaHVw$3ioO3kt1bcf3zuLE4JJ5242Px8qinijVZuqUBeiKNFQ"
+    },
+    "Ken": {
+        "user_id": 10,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$PgFoX+c3wtQ5/i2WSsZbsw$4kF41ul4z+YoEBEoyPeDXVJFfPT3D/JQI+wQflvrUOc"
+    },
+    "Jenn": {
+        "user_id": 11,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$Fp+7vtfp/Ka0B2YQTRIrIg$D1HmNI52pNsWcki7UQtE9EhgSg5QUUKTOOqAIoqJAGM"
+    },
+    "KingMel": {
+        "user_id": 12,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$mdJX6nWePrdjP9bSMfw7/g$U1hGGxZkHJHJBHe6W7eapmx4V2I6Iht83GJ3JKmajNQ"
+    }
+}

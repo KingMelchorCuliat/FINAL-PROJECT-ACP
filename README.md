@@ -11,7 +11,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 * Object Oriented Programming (OOP)
 * Data storage using json
 * Control Flow
-* Stribg Fromatting
+* String Fromatting
 * Error Handling
 * re Library
 * Data Structures

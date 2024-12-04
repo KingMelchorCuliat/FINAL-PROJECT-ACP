@@ -24,7 +24,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
  Product Feedback system is a tool that allows users to give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses
 
-### **II. Explanation of How Python Concepts, Libararies, etc were applied**
+### **II. Explanation of How Python Concepts, Libraries, etc were applied**
 
 #### 1. Programming Languange used
 1.1 This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.

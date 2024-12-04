@@ -56,7 +56,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
 #### 8. Data Structures
 
-8.1 Dictioanires like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
+8.1 Dictionaries like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
 
 8.2 Lists ech products has a dictionary containing a list of feedbacks that stores Feedback objects.
 

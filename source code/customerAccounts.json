@@ -1,0 +1,6 @@
+{
+    "King Melchor": {
+        "user_id": 1,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$2Lo+GVE7zWooqgwPVqmEIg$7lk2qb4BK6Qg7K8qt+EfEaNpBwn4JX90on6r/fqHTNY"
+    }
+}

@@ -79,7 +79,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
 Once the user selected Create Account the user will have to input a new username and a password(must contain atleast one capital letter and one number). After creating the account the user will  see a welcome message.
 
-![Create Account](https://github.com/user-attachments/assets/77382060-c3e7-4110-8442-07ee4036eaa2)
+![Create Account](https://github.com/user-attachments/assets/100c7357-4a16-47cc-b79d-27feba112b48)
 
 **Logging in**
 

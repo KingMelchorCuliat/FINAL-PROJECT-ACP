@@ -69,7 +69,7 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 #### 7. Data Structures
 
-7.1 **Dictionaries** like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
+7.1 **Dictionaries** like `accounts`  is use to store user account infromation containing usernames as their key values that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
 
 7.2 **Lists: ** each products has a dictionary containing a list of feedbacks that stores Feedback objects.
 

@@ -26,39 +26,50 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 
 ### **II. Explanation of How Python Concepts, Libraries, etc were applied**
 
-#### 1. Programming Languange used
-1.1 This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.
+ This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.
 
-#### 2. Object Oriented Programming (OOP)
-2.1 The system uses classes `customerAccount` and `Feedback` to encapsulate data functionality. The `customerAccount` class manages user accounts, including secure password using `argon2` library. The `Feedback` class represents an individual feedback entries, including the time and date when the customer submitted a feedback using `datetime` library.
+#### 1. Object Oriented Programming (OOP)
+1.1 **Encaplsulation:** The system uses classes `customerAccount` and `Feedback` to encapsulate data functionality. The `customerAccount` class manages user accounts, including creation, login, and data persistence. The password has a requirement for enforcing password complexity; this is done using the'requiredStongPassword` method that uses're library` for regular expression, and it will hash the password for security of the account using the `argon2 library'. 
 
-#### 3. Data Storage using json
-3.1 The `json` library is used to store and retrieve customer accounts data in `customerAccounts.json` and product feedbacks  using `customerFeedback.json`. This allows  the system to maintain the data's between each sessions.
+The `Feedback` class encapsulates all of the relevant information associated with a feedback entry, including `feedback id`, `user id`, `name`, `feedback`, `rating`, `date` using `timestamp` and using a `datetime library`, and an 'optional suggestion`.
 
-#### 4. Control Flow
+1.2 **Abstraction:** In the `customerAccount` class, the account was used in the 'passwordHasher,` and the account was managed internally, so the user will only interact with the methods like `create_account` and `login` without worrying how the account was secured or whether the account is stored in the json` library. In the `Feedback class` abstraction was used to generate unique IDs and timestamps and determine whether the user will give suggestions based on their ratings. 
+ 
+#### 2. Data Storage using json
+2.1 The `json` library is used to store and retrieve customer accounts data in `customerAccounts.json` and product feedbacks  using `customerFeedback.json`. This allows  the system to maintain the data's between each sessions. This are the examples on how the cutomer accounts and customer feedbacks was stored in the json lobrary:
 
-4.1 Conditional statements: `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
+**Storing the customer accounts, hashing the password and providing user id.**
 
-4.2 Loops: Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
+![Screenshot 2024-12-06 081634](https://github.com/user-attachments/assets/00d37ed8-9d2b-4ddc-b026-6e836c1ce77e)
 
-#### 5. String Formatting
+**Storing customer feedbacks, inclucing `feedback_id`, `user_id`, `feedback`, `rating`, `suggestion`, and `timestamp.**
 
-5.1 F Strings: F string was used in this system to provide a concise and convenient way to directly embed variables into string.  
+![Screenshot 2024-12-06 081707](https://github.com/user-attachments/assets/0975a1c5-87fd-48c9-81b1-c21e576e9d03)
 
-#### 6. Error Handling
-6.1 `try` and `except` blocks are used to handle potential errors in the system, prevent the system for crashing  and guide the users using informative messages making the program more robust and user friendly.
+#### 3. Control Flow
 
-6.2 Input validation is used to ensure that user inputs are within the expected ranges.
+3.1 Conditional statements: `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
 
-#### 7. re library
+3.2 Loops: Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
 
-7.1 The re library is used in this system to make a complexity  password requirements to ensure that passwords is valid.
+#### 4. String Formatting
 
-#### 8. Data Structures
+4.1 F Strings: F string was used in this system to provide a concise and convenient way to directly embed variables into string.  
 
-8.1 Dictionaries like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
+#### 5. Error Handling
+5.1 `try` and `except` blocks are used to handle potential errors in the system, prevent the system for crashing  and guide the users using informative messages making the program more robust and user friendly.
 
-8.2 Lists ech products has a dictionary containing a list of feedbacks that stores Feedback objects.
+5.2 Input validation is used to ensure that user inputs are within the expected ranges.
+
+#### 6. re library
+
+6.1 The re library is used in this system to make a complexity  password requirements to ensure that passwords is valid.
+
+#### 7. Data Structures
+
+7.1 Dictionaries like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
+
+7.2 Lists ech products has a dictionary containing a list of feedbacks that stores Feedback objects.
 
 
 

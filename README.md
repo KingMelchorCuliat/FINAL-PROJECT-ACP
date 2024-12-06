@@ -29,7 +29,7 @@ Share your Experience: Product Feedback system is a Python based tool that allow
  This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.
 
 #### 1. Object Oriented Programming (OOP)
-1.1 **Encapsulation:** The system uses classes `customerAccount` and `Feedback` to encapsulate data functionality. The `customerAccount` class manages user accounts, including creation, login, and data persistence. The password has a requirement for enforcing password complexity; this is done using the`requiredStongPassword` method that uses're library` for regular expression, and it will hash the password for security of the account using the `argon2 library` . 
+1.1 **Encapsulation:** The system uses classes `customerAccount` and `Feedback` to encapsulate data functionality. The `customerAccount` class manages user accounts, including creation, login, and data persistence. The password has a requirement for enforcing password complexity; this is done using the`requiredStongPassword` method that uses`re library` for regular expression, and it will hash the password for security of the account using the `argon2 library` . 
 
 The `Feedback` class encapsulates all of the relevant information associated with a feedback entry, including `feedback id`, `user id`, `name`, `feedback`, `rating`, `date` using `timestamp` and using a `datetime library`, and an 'optional suggestion`.
 

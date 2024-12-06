@@ -48,13 +48,13 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 #### 3. Control Flow
 
-3.1 Conditional statements: `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
+3.1 **Conditional statements:** `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
 
-3.2 Loops: Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
+3.2 **Loops:** Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
 
 #### 4. String Formatting
 
-4.1 F Strings: F string was used in this system to provide a concise and convenient way to directly embed variables into string.  
+4.1 **F-Strings:** F-string was used in this system to provide a concise and convenient way to directly embed variables into string.  
 
 #### 5. Error Handling
 5.1 `try` and `except` blocks are used to handle potential errors in the system, prevent the system for crashing  and guide the users using informative messages making the program more robust and user friendly.
@@ -63,13 +63,13 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 #### 6. re library
 
-6.1 The re library is used in this system to make a complexity  password requirements to ensure that passwords is valid.
+6.1 The `re library` is used in this system to make a complexity  password requirements to ensure that passwords is valid.
 
 #### 7. Data Structures
 
-7.1 Dictionaries like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
+7.1 **Dictionaries** like `accounts`  is use to store user account infromation containing usernames as their key valus that contains `user_id` and `password`. `products` dictionary is used to store informations about products like productName, product_id, productCategory, feedbacks,  to allows easy access on a products.
 
-7.2 Lists ech products has a dictionary containing a list of feedbacks that stores Feedback objects.
+7.2 **Lists: ** each products has a dictionary containing a list of feedbacks that stores Feedback objects.
 
 
 
@@ -82,11 +82,15 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 ### **IV. Instructions for running the program**
 
+**Step 1: Make sure the argon2 library was installed in the terminal**
+
+![Screenshot 2024-12-06 083905](https://github.com/user-attachments/assets/be771996-391e-43d7-8c4d-bcfe179a520f)
+
 **Login or Create Account**
 
 ![Create or Login](https://github.com/user-attachments/assets/624dae8b-b4ae-412b-a5f4-1bf403c0bfb4)
 
-**Creating account for new user**
+**Step 2: Creating account for new user**
 
 Once the user selected Create Account the user will have to input a new username and a password(must contain atleast one capital letter and one number). After creating the account the user will  see a welcome message.
 
@@ -102,14 +106,14 @@ Log in with your excisting account.
 
 ![Menu](https://github.com/user-attachments/assets/c4e6bbe7-fc22-462c-8763-8d90af36111f)
 
-**List of Products**
+**Step 3: List of Products**
 
 Once the user choose Provide a feedback the list of product names and their category will display
 
 
 ![Choices](https://github.com/user-attachments/assets/4fc3e1e6-175a-4b5a-a3d9-5adff10467ef)
 
-**Providing a Feedback**
+**Step 4: Providing a Feedback**
 
 After the user choose a product, the user will proceed in giving a feedback
 
@@ -121,20 +125,20 @@ If the user rating is less than or equal 2 the system will ask the user if he/sh
 
 ![Suggestion](https://github.com/user-attachments/assets/732b55e8-195d-4024-afc6-68e1e53da040)
 
-**Viewing Feedbacks**
+**Step 5: Viewing Feedbacks**
 
 After giving feedback the user can view the products that has a feedback
 
 
 ![ViewFeedback](https://github.com/user-attachments/assets/87970319-7dc7-4ee3-b02a-57a541d67f3f)
 
-**Adding a Product**
+**Step 6: Adding a Product**
 
 The user who will provide a feedback might add a product with its name and category if he does not find it in the product list displayed.
 
 ![Add a product](https://github.com/user-attachments/assets/7c3acbe7-a74d-461f-af40-54d4b5cf210f)
 
-**Exiting the System**
+**Step 7: Exiting the System**
 
 If the user has finish giving feedback and exit the program his/her account will automatically log out an will receive a message of appreciation.
 

@@ -36,13 +36,13 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 1.2 **Abstraction:** In the `customerAccount` class, the account was used in the `passwordHasher,` and the account was managed internally, so the user will only interact with the methods like `create_account` and `login` without worrying how the account was secured or whether the account is stored in the `json` library. In the `Feedback class` abstraction was used to generate `unique IDs` and `timestamps` and determine whether the user will give suggestions based on their ratings. 
  
 #### 2. Data Storage using json
-2.1 The `json` library is used to store and retrieve customer accounts data in `customerAccounts.json` and product feedbacks  using `customerFeedback.json`. This allows  the system to maintain the data's between each sessions. This are the examples on how the cutomer accounts and customer feedbacks was stored in the json lobrary:
+2.1 The `json` library is used to store and retrieve customer accounts data in `customerAccounts.json` and product feedbacks  using `customerFeedback.json`. This allows  the system to maintain the data's between each sessions. This are the examples on how the cutomer accounts and customer feedbacks was stored in the json library:
 
 **Storing the customer accounts, hashing the password and providing user id.**
 
 ![Screenshot 2024-12-06 081634](https://github.com/user-attachments/assets/00d37ed8-9d2b-4ddc-b026-6e836c1ce77e)
 
-**Storing customer feedbacks, inclucing `feedback_id`, `user_id`, `feedback`, `rating`, `suggestion`, and `timestamp.**
+**Storing customer feedbacks, inclucing `feedback_id`, `user_id`, `feedback`, `rating`, `suggestion`, and `timestamp`.**
 
 ![Screenshot 2024-12-06 081707](https://github.com/user-attachments/assets/0975a1c5-87fd-48c9-81b1-c21e576e9d03)
 

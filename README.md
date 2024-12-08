@@ -1,11 +1,14 @@
-#  Share your Experience: Product Feedback System
+#  Share your Experience: Product Feedback Management
 
-Share your Experience: Product Feedback system is a Python based tool that allows users to add products and give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses. 
+Share your Experience: Product Feedback Management is a Python based console application designed to manage the product feedback based on customer insights or experience. This system allows users to add products and give feedback on a product, the customer feedback has two forms including rating and suggestions. This console application will form a direct connection between customers and companies that will help them improving the quality of their products and  enhancing customer experience. 
 
  # *Topics Covered*
-  ***I.*** ***Project Overview*** 
+ 
+  ***Project Overview*** 
+
+  ***Features***
   
-  ***II.*** ***Explanation of How Python Concepts, Libraries, etc were applied***
+  ***Explanation of How Python Concepts, Libraries, etc were applied***
   
 * Programming Languange used
 * Object Oriented Programming (OOP)
@@ -16,15 +19,25 @@ Share your Experience: Product Feedback system is a Python based tool that allow
 * re Library
 * Data Structures
   
- ***III.*** ***Details of the chosen SDG and its implementation into the project***
+***Details of the chosen SDG and its implementation into the project***
 
-***IV.*** ***Instruction for running the program***
+ ***Instruction for running the program***
 
- ### **I. Project Overview**
+## **Project Overview**
 
- Product Feedback system is a tool that allows users to give feedback on a product, this feedback can take forms including rating and suggestions. The main goal of this system is to improve the sustainability of a certain company products by using feedback to identify and address their product weaknesses
+ Share your Experience: Product Feedback Management is a Python based console application designed to manage the product feedback based on customer insights or experience. This system allows users to add products and give feedback on a product, the customer feedback has two forms including rating and suggestions. This console application will form a direct connection between customers and companies that will help them improving the quality of their products and  enhancing customer experience. 
 
-### **II. Explanation of How Python Concepts, Libraries, etc were applied**
+ ## **Features**
+**Account management**
+ * Create Account : For the customers that doesnt have an account.
+ * Log in: Log in using the existing account.
+
+ **Feedback Management**
+ * Provide a Feedback: For displaying the list of the product and proceed in giving feedback.
+ * View Feedback: Displaying all of the feedback of the customers including their timestamps.
+ * Add a new products: For admin to add product on the list and for the user to add the product if the product they will give feedback are not on the list.
+   
+## **Explanation of How Python Concepts, Libraries, etc were applied**
 
  This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.
 
@@ -81,11 +94,11 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 
 
-### **III. Details of chosen SDG and its impelentation into the project**
+## **Details of chosen SDG and its impelentation into the project**
 
   This Product Feedback System directly promotes `SDG 12 Responsible Consumption and Production`, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s, companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s, access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
 
-### **IV. Instructions for running the program**
+## **Instructions for running the program**
 
 **Step 1: Make sure the argon2 library was installed in the terminal**
 

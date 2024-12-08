@@ -91,7 +91,10 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 ## **Details of chosen SDG and its impelentation into the project**
 
-                                                    ![giphy](https://github.com/user-attachments/assets/0519de13-09b6-49c6-b7ab-24a00590e52f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0519de13-09b6-49c6-b7ab-24a00590e52f" alt="giphy" width="200">
+</p>
+
 
   This Product Feedback Management directly promotes `SDG 12 Responsible Consumption and Production`, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s, companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s, access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
 

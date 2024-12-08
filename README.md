@@ -100,7 +100,7 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 ## **Instructions for running the program**
 
-## **Pyhton Installation:
+ **Python Installation:**
 
 Python 3
 

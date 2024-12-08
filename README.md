@@ -89,14 +89,9 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 7.2 **Lists:** each products has a dictionary containing a list of feedbacks that stores Feedback objects in `products[product_id]['feedbacks']` and saving feedback details in `json` format.
 
-
-
-
-
-
 ## **Details of chosen SDG and its impelentation into the project**
 
-  This Product Feedback System directly promotes `SDG 12 Responsible Consumption and Production`, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s, companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s, access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
+  This Product Feedback Management directly promotes `SDG 12 Responsible Consumption and Production`, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s, companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s, access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
 
 ## **Instructions for running the program**
 

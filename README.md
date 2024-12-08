@@ -39,16 +39,16 @@ Share your Experience: Product Feedback Management is a Python based console app
    
 ## **Explanation of How Python Concepts, Libraries, etc were applied**
 
- This system entitled `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange.
+ The `Share your Experience: Product Feedbacks System` uses `Python` as its main programming languange. Below is an analysis of how Python concepts, libraries, etc were applied.
 
-#### 1. Object Oriented Programming (OOP)
+#### Object Oriented Programming (OOP):
 1.1 **Encapsulation:** The system uses classes `customerAccount` and `Feedback` to encapsulate data functionality. The `customerAccount` class manages user accounts, including creation, login, and data persistence. The password has a requirement for enforcing password complexity; this is done using the`requiredStongPassword` method that uses`re library` for regular expression, and it will hash the password for security of the account using the `argon2 library` . 
 
 The `Feedback` class encapsulates all of the relevant information associated with a feedback entry, including `feedback id`, `user id`, `name`, `feedback`, `rating`, `date` using `timestamp` and using a `datetime library`, and an `optional suggestion`.
 
 1.2 **Abstraction:** In the `customerAccount` class, the account was used in the `passwordHasher,` and the account was managed internally, so the user will only interact with the methods like `create_account` and `login` without worrying how the account was secured or whether the account is stored in the `json` library. In the `Feedback class` abstraction was used to generate `unique IDs` and `timestamps` and determine whether the user will give suggestions based on their ratings. 
  
-#### 2. Data Storage using json
+#### Data Storage using json:
 2.1 The `json` library is used to store and retrieve customer accounts data in `customerAccounts.json` and product feedbacks  using `customerFeedback.json`.
 
  This allows  the system to maintain the data's between each sessions. This are the examples on how the cutomer accounts and customer feedbacks was stored in the json library:
@@ -61,29 +61,29 @@ The `Feedback` class encapsulates all of the relevant information associated wit
 
 ![Screenshot 2024-12-06 081707](https://github.com/user-attachments/assets/0975a1c5-87fd-48c9-81b1-c21e576e9d03)
 
-#### 3. Control Flow
+#### Control Flow:
 
 3.1 **Conditional statements:** `(if, elif, else)` help the system for determining the flow based on some conditions to ensure the program behaves according to its conditions.
 
 3.2 **Loops:** Loops like `while` loop is used in many ways in this system, for user account creation until the username is valid,  used in validating inputs until the correct input is given and use in main menu until the user exit the program. While `for` loop  is used to iterate products and feedback for displaying informations and calculating average rating through feedbacks. 
 
-#### 4. String Formatting
+#### String Formatting:
 
 4.1 **F-Strings:** F-string was used in this system to provide a concise and convenient way to directly embed variables into string.  
 
-#### 5. Error Handling
+#### Error Handling:
 5.1 `try` and `except` blocks are used to handle potential errors in the system, prevent the system for crashing  and guide the users using informative messages making the program more robust and user friendly.
 
 5.2 Input validation is used to ensure that user inputs are within the expected ranges.
 
-#### 6. re library
+#### re library:
 
 6.1 The `re library` is used in this system to make a complexity  password requirements to ensure that passwords is valid.
 
 ![passrequirement](https://github.com/user-attachments/assets/cfb6ff8a-808d-480e-964c-6ea5a5b5b7a8)
 
 
-#### 7. Data Structures
+#### Data Structures:
 
 7.1 **Dictionaries** like `accounts`  is use to store user account infromation containing usernames as their key values that contains `user_id` and `password`. `products` dictionary is used to store informations about products like `productName`, `product_id`, `productCategory`, `feedbacks`,  to allows easy access on a products.
 
@@ -99,6 +99,10 @@ The `Feedback` class encapsulates all of the relevant information associated wit
   This Product Feedback Management directly promotes `SDG 12 Responsible Consumption and Production`, by collecting customer insights about the quality of product and for better improvements. The system will encourage sustainable practices by providing manufacturers with actionable data’s given by the users. With the feedback, rating and suggestion provided by the user’s, companies can reduce likelihood the production of low-quality products and avoiding the waste of the items use in making products. It promotes sustainable consumption for the buyer’s, access feedbacks information they can make a right decision choosing high quality products to reduce waste from buying low quality products.
 
 ## **Instructions for running the program**
+
+## **Pyhton Installation:
+
+Python 3
 
 **Step 1: Make sure the argon2 library was installed in the terminal**
 

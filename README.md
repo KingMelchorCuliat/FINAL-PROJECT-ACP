@@ -1,6 +1,6 @@
 #  Share your Experience: Product Feedback Management
 
-Share your Experience: Product Feedback Management is a Python based console application designed to manage the product feedback based on customer insights or experience. This system allows users to add products and give feedback on a product, the customer feedback has two forms including rating and suggestions. This console application will form a direct connection between customers and companies that will help them improving the quality of their products and  enhancing customer experience. 
+Share your Experience: Product Feedback Management is a Python-based console application designed to manage the product feedback based on customer insights or experience. This system allows users to add products and give feedback on a product. The customer feedback has two forms, including ratings and suggestions. This console application will form a direct connection between customers and companies that will help them improve the quality of their products and enhance the customer experience.
 
  # *Topics Covered*
  
@@ -25,7 +25,7 @@ Share your Experience: Product Feedback Management is a Python based console app
 
 ## **Project Overview**
 
- Share your Experience: Product Feedback Management is a Python based console application designed to manage the product feedback based on customer insights or experience. This system allows users to add products and give feedback on a product, the customer feedback has two forms including rating and suggestions. This console application will form a direct connection between customers and companies that will help them improving the quality of their products and  enhancing customer experience. 
+Share your Experience: Product Feedback Management is a Python-based console application designed to manage the product feedback based on customer insights or experience. This system allows users to add products and give feedback on a product. The customer feedback has two forms, including ratings and suggestions. This console application will form a direct connection between customers and companies that will help them improve the quality of their products and enhance the customer experience.
 
  ## **Features**
 **Account management**

@@ -1,0 +1,62 @@
+{
+    "1": {
+        "productName": "Rocking Chair",
+        "productCategory": "Furniture",
+        "feedbacks": [
+            {
+                "feedback_id": "20241210193744723951",
+                "user_id": 3,
+                "name": "Andrei",
+                "feedback": "this chair is good it so relaxing",
+                "rating": 5,
+                "suggestion": null,
+                "timestamp": "2024-12-10 19:37:44"
+            }
+        ]
+    },
+    "2": {
+        "productName": "Dining Table",
+        "productCategory": "Furniture",
+        "feedbacks": [
+            {
+                "feedback_id": "20241210193820404701",
+                "user_id": 3,
+                "name": "Jade",
+                "feedback": "not that good, its not durable",
+                "rating": 2,
+                "suggestion": "be more durable and improve the design",
+                "timestamp": "2024-12-10 19:38:20"
+            }
+        ]
+    },
+    "3": {
+        "productName": "Chaise Lounge Couch",
+        "productCategory": "Furniture",
+        "feedbacks": []
+    },
+    "4": {
+        "productName": "Corner Book Case",
+        "productCategory": "Furniture",
+        "feedbacks": []
+    },
+    "5": {
+        "productName": "Media Chest Drawer",
+        "productCategory": "Furniture",
+        "feedbacks": []
+    },
+    "6": {
+        "productName": "Coat Racks",
+        "productCategory": "Furniture",
+        "feedbacks": [
+            {
+                "feedback_id": "20241210194104523977",
+                "user_id": 3,
+                "name": "Andrei",
+                "feedback": "Good",
+                "rating": 5,
+                "suggestion": null,
+                "timestamp": "2024-12-10 19:41:04"
+            }
+        ]
+    }
+}

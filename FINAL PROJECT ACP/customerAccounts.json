@@ -1,0 +1,14 @@
+{
+    "King Melchor": {
+        "user_id": 1,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$0sIW2qGuLBZ0pMgFh00gtw$vgLqWTE2CF13WlKm4OJdb2bLhI8rTN6Yf9GaGLbGzSY"
+    },
+    "Marie Sandre": {
+        "user_id": 2,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$v3yVaRkEm0RwM1ChZEuaDw$AH9x8cMMwZl2ZnfKcf0fOP1vXQC8RHSkucTbKIYt2TA"
+    },
+    "Andrei": {
+        "user_id": 3,
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$GVb9J38x29NqO+wGYleO2w$fjkQxY2+8L51JggWTy7dMee4uMgHUoxLTVZZc7DGoh4"
+    }
+}

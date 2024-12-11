@@ -10,7 +10,6 @@ Share your Experience: Product Feedback Management is a Python-based console app
   
   ***Explanation of How Python Concepts, Libraries, etc were applied***
   
-* Programming Languange used
 * Object Oriented Programming (OOP)
 * Data storage using json
 * Control Flow
